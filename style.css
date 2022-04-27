@@ -159,3 +159,10 @@ body {
     bottom: 20px;
   }
 }
+/* My account */
+
+.input-name,
+.input-email,
+.input-password {
+  margin-bottom: 22px;
+}
