@@ -127,3 +127,35 @@ body {
   color: var(--hospital-green);
   text-decoration: none;
 }
+
+/* login */
+
+.form a {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 52px;
+}
+
+.input-email {
+  margin-bottom: 22px;
+}
+
+.secondary-button {
+  background-color: var(--white);
+  border-radius: 8px;
+  border: 2px solid var(--hospital-green);
+  color: var(--hospital-green);
+  width: 207px;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 40px;
+}
+@media (max-width: 640px) {
+  .secondary-button {
+    position: absolute;
+    bottom: 20px;
+  }
+}
