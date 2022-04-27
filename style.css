@@ -147,7 +147,7 @@ body {
   border-radius: 8px;
   border: 2px solid var(--hospital-green);
   color: var(--hospital-green);
-  width: 207px;
+  width: 208px;
   cursor: pointer;
   font-size: var(--md);
   font-weight: bold;
@@ -157,6 +157,7 @@ body {
   .secondary-button {
     position: absolute;
     bottom: 20px;
+    left: calc(50% - 104px);
   }
 }
 /* My account */
@@ -165,4 +166,9 @@ body {
 .input-email,
 .input-password {
   margin-bottom: 22px;
+}
+
+.value {
+  color: var(--very-light-pink);
+  font-size: var(--md);
 }
